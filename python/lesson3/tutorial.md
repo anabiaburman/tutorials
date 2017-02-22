@@ -74,7 +74,7 @@ for a more complete reference:
     >>> places_to_visit
     ['Mexico', 'Portugal', 'Kenya', 'Nepal', 'New Zealand']
 
-    >>> places_to_visit[5] = "Peru"
+    >>> places_to_visit.append("Peru")
     >>> places_to_visit
     ['Mexico', 'Portugal', 'Kenya', 'Nepal', 'New Zealand', 'Peru']
 
@@ -83,14 +83,9 @@ for a more complete reference:
     >>> places_to_visit
     ['Mexico', 'Portugal', 'Kenya', 'Nepal', 'New Zealand']
 
-    >>> places_to_visit.append("Columbia")
-    >>> places_to_visit
-    ['Mexico', 'Portugal', 'Kenya', 'Nepal', 'New Zealand', 'Columbia']
-
+    
 Try some of these out yourself:
 
-* Try adding a country to a list with either the explicit indexing (`[n]`) or
-  `.append()`.  What happens if you give an index that's larger than the list?
 * Take a look at the documentation and try out some of the other methods.
   `.count()` is a simple one, and `.reverse()` is handy to know.
 
